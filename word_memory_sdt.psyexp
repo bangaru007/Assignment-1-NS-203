@@ -1,0 +1,1012 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2026.2.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="'data/' + expInfo['participant'] + '_' + expName + '_' + expInfo['date']" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="output" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="word_memory_sdt_prototype" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="60" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="False" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="Instructoins">
+      <RoutineSettingsComponent name="Instructoins" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Instructoins" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Instructions" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Instructions" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="In each trial, you will first study a list of words.&amp;#10;&amp;#10;You will then see six test words, one at a time.&amp;#10;&amp;#10;For each test word:&amp;#10;&amp;#10;Press (F) if you SAW the word in the study list.&amp;#10;Press (J)  if you DID NOT SEE the word in the study list.&amp;#10;&amp;#10;After each response, rate how confident you are:&amp;#10;&amp;#10;1 = Low confidence&amp;#10;2 = Medium confidence&amp;#10;3 = High confidence&amp;#10;&amp;#10;Respond as quickly and accurately as possible.&amp;#10;&amp;#10;Press SPACE to begin." valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="InstructionResp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="InstructionResp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="FixationText">
+      <RoutineSettingsComponent name="FixationText" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="FixationText" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="fixationtext" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.08" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixationtext" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="TrialSetup">
+      <RoutineSettingsComponent name="TrialSetup" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="TrialSetup" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="TrailSetupCode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="studyWords = [&amp;#10;    study_1, study_2, study_3, study_4, study_5,&amp;#10;    study_6, study_7, study_8, study_9, study_10&amp;#10;];&amp;#10;&amp;#10;probeWords = [&amp;#10;    probe_1, probe_2, probe_3,&amp;#10;    probe_4, probe_5, probe_6&amp;#10;];&amp;#10;&amp;#10;probeStatuses = [&amp;#10;    probe_1_status, probe_2_status, probe_3_status,&amp;#10;    probe_4_status, probe_5_status, probe_6_status&amp;#10;];&amp;#10;&amp;#10;probeCorrectKeys = [&amp;#10;    probe_1_correct_key, probe_2_correct_key, probe_3_correct_key,&amp;#10;    probe_4_correct_key, probe_5_correct_key, probe_6_correct_key&amp;#10;];&amp;#10;&amp;#10;studyIndex = 0;&amp;#10;probeIndex = 0;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="studyWords = [&amp;#10;    study_1, study_2, study_3, study_4, study_5,&amp;#10;    study_6, study_7, study_8, study_9, study_10&amp;#10;]&amp;#10;&amp;#10;probeWords = [&amp;#10;    probe_1, probe_2, probe_3,&amp;#10;    probe_4, probe_5, probe_6&amp;#10;]&amp;#10;&amp;#10;probeStatuses = [&amp;#10;    probe_1_status, probe_2_status, probe_3_status,&amp;#10;    probe_4_status, probe_5_status, probe_6_status&amp;#10;]&amp;#10;&amp;#10;probeCorrectKeys = [&amp;#10;    probe_1_correct_key, probe_2_correct_key, probe_3_correct_key,&amp;#10;    probe_4_correct_key, probe_5_correct_key, probe_6_correct_key&amp;#10;]&amp;#10;&amp;#10;studyIndex = 0&amp;#10;probeIndex = 0&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="TrailSetupCode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="studyWord">
+      <RoutineSettingsComponent name="studyWord" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="studyWord" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="currentStudyWord = studyWords[studyIndex];&amp;#10;studyIndex = studyIndex + 1;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="currentStudyWord = studyWords[studyIndex]&amp;#10;studyIndex = studyIndex + 1" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="studyWordText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="0.7" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.10" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="studyWordText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="time (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$currentStudyWord" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="retention">
+      <RoutineSettingsComponent name="retention" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="retention" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="probe">
+      <RoutineSettingsComponent name="probe" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="probe" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="probecode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="currentProbeWord = probeWords[probeIndex];&amp;#10;currentProbeStatus = probeStatuses[probeIndex];&amp;#10;currentCorrectKey = probeCorrectKeys[probeIndex];&amp;#10;probeNumber = probeIndex + 1;&amp;#10;probeIndex = probeIndex + 1;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="currentProbeWord = probeWords[probeIndex]&amp;#10;currentProbeStatus = probeStatuses[probeIndex]&amp;#10;currentCorrectKey = probeCorrectKeys[probeIndex]&amp;#10;probeNumber = probeIndex + 1&amp;#10;probeIndex = probeIndex + 1&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="psychoJS.experiment.addData(&quot;subject_id&quot;, subject_id);&amp;#10;psychoJS.experiment.addData(&quot;trial_id&quot;, trial_id);&amp;#10;psychoJS.experiment.addData(&quot;set_size&quot;, set_size);&amp;#10;psychoJS.experiment.addData(&quot;old_probe_count&quot;, old_probe_count);&amp;#10;psychoJS.experiment.addData(&quot;probe_number&quot;, probeNumber);&amp;#10;psychoJS.experiment.addData(&quot;probe_word&quot;, currentProbeWord);&amp;#10;psychoJS.experiment.addData(&quot;probe_status&quot;, currentProbeStatus);&amp;#10;psychoJS.experiment.addData(&quot;correct_key&quot;, currentCorrectKey);&amp;#10;&amp;#10;let noResponse = (&amp;#10;    probeResp.keys === undefined ||&amp;#10;    probeResp.keys === null ||&amp;#10;    probeResp.keys.length === 0&amp;#10;);&amp;#10;psychoJS.experiment.addData(&quot;timed_out&quot;, noResponse);&amp;#10;&amp;#10;psychoJS.experiment.addData(&quot;is_practice&quot;, is_practice);&amp;#10;psychoJS.experiment.addData(&quot;block&quot;, block);&amp;#10;psychoJS.experiment.addData(&quot;trial_in_block&quot;, trial_in_block);&amp;#10;psychoJS.experiment.addData(&quot;global_trial&quot;, global_trial);" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="thisExp.addData(&quot;subject_id&quot;, subject_id)&amp;#10;thisExp.addData(&quot;trial_id&quot;, trial_id)&amp;#10;thisExp.addData(&quot;set_size&quot;, set_size)&amp;#10;thisExp.addData(&quot;old_probe_count&quot;, old_probe_count)&amp;#10;thisExp.addData(&quot;probe_number&quot;, probeNumber)&amp;#10;thisExp.addData(&quot;probe_word&quot;, currentProbeWord)&amp;#10;thisExp.addData(&quot;probe_status&quot;, currentProbeStatus)&amp;#10;thisExp.addData(&quot;correct_key&quot;, currentCorrectKey)&amp;#10;&amp;#10;thisExp.addData(&quot;timed_out&quot;, probeResp.keys is None)&amp;#10;thisExp.addData(&quot;is_practice&quot;, is_practice)&amp;#10;thisExp.addData(&quot;block&quot;, block)&amp;#10;thisExp.addData(&quot;trial_in_block&quot;, trial_in_block)&amp;#10;thisExp.addData(&quot;global_trial&quot;, global_trial)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="probecode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="probeWordText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="5.0" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.10" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="probeWordText" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.06)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$currentProbeWord" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="ResponseReminder" plugin="None">
+        <Param val="$(0.6549, 0.6549, 0.6549)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="ResponseReminder" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.22)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="F = SEEN        J = NOT SEEN" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="probeResp" plugin="None">
+        <Param val="'f', 'j'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$currentCorrectKey" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="5.0" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="probeResp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="probeBlank">
+      <RoutineSettingsComponent name="probeBlank" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="probeBlank" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="iti">
+      <RoutineSettingsComponent name="iti" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="iti" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="thanks">
+      <RoutineSettingsComponent name="thanks" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="thanks" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="$(-0.5137, 0.5137, -0.6235)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="The prototype is complete.&amp;#10;&amp;#10;Thank you.&amp;#10;&amp;#10;Press SPACE to finish." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="thanksResp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="thanksResp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="BlockStart">
+      <RoutineSettingsComponent name="BlockStart" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="BlockStart" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="trial_in_block != 1" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="&amp;#10;The next block is ready.&amp;#10;&amp;#10;&amp;#10; Press SPACE to begin" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="BlockBreak">
+      <RoutineSettingsComponent name="BlockBreak" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="BlockBreak" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="trial_in_block != 15 or block == 4" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You have completed this block.&amp;#10;&amp;#10;&amp;#10;&amp;#10;Please take a short break.&amp;#10;&amp;#10;Press &amp;#10;&amp;#10;SPACE when you are ready to continue." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="PracticeIntro">
+      <RoutineSettingsComponent name="PracticeIntro" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="PracticeIntro" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_4" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="PRACTICE&amp;#10;&amp;#10;You will first complete a short practice block.&amp;#10;&amp;#10;&amp;#10;&amp;#10;After each confidence rating, you will receive feedback about whether your Seen/Not Seen response was correct.&amp;#10;&amp;#10;&amp;#10;&amp;#10;Press SPACE to start the practice." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="practiceStartResp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="practiceStartResp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="MainIntro">
+      <RoutineSettingsComponent name="MainIntro" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="MainIntro" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="practice_complete" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="practice_complete" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Practice is complete.&amp;#10;&amp;#10;The main experiment will now begin.&amp;#10;&amp;#10;&amp;#10;There are four blocks.&amp;#10;&amp;#10;You can take a short break between blocks.&amp;#10;&amp;#10;&amp;#10;&amp;#10;Press SPACE to continue." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="PracticeFeedback">
+      <RoutineSettingsComponent name="PracticeFeedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="PracticeFeedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="feedbackCode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="let statusLabel;&amp;#10;&amp;#10;if (currentProbeStatus === &quot;old&quot;) {&amp;#10;    statusLabel = &quot;SEEN&quot;;&amp;#10;} else {&amp;#10;    statusLabel = &quot;NOT SEEN&quot;;&amp;#10;}&amp;#10;&amp;#10;let noResponse = (&amp;#10;    probeResp.keys === undefined ||&amp;#10;    probeResp.keys === null ||&amp;#10;    probeResp.keys.length === 0&amp;#10;);&amp;#10;&amp;#10;if (noResponse) {&amp;#10;    feedbackMessage =&amp;#10;        &quot;No response\n\nCorrect answer: &quot; +&amp;#10;        currentCorrectKey.toUpperCase() +&amp;#10;        &quot; (&quot; + statusLabel + &quot;)&quot;;&amp;#10;    feedbackColor = &quot;yellow&quot;;&amp;#10;&amp;#10;} else if (probeResp.corr === 1) {&amp;#10;    feedbackMessage = &quot;Correct&quot;;&amp;#10;    feedbackColor = &quot;green&quot;;&amp;#10;&amp;#10;} else {&amp;#10;    feedbackMessage =&amp;#10;        &quot;Incorrect\n\nCorrect answer: &quot; +&amp;#10;        currentCorrectKey.toUpperCase() +&amp;#10;        &quot; (&quot; + statusLabel + &quot;)&quot;;&amp;#10;    feedbackColor = &quot;red&quot;;&amp;#10;}" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if currentProbeStatus == &quot;old&quot;:&amp;#10;    statusLabel = &quot;SEEN&quot;&amp;#10;else:&amp;#10;    statusLabel = &quot;NOT SEEN&quot;&amp;#10;&amp;#10;if probeResp.keys in [None, [], '']:&amp;#10;    feedbackMessage = (&amp;#10;        &quot;No response\n\nCorrect answer: &quot;&amp;#10;        + currentCorrectKey.upper()&amp;#10;        + &quot; (&quot;&amp;#10;        + statusLabel&amp;#10;        + &quot;)&quot;&amp;#10;    )&amp;#10;    feedbackColor = &quot;yellow&quot;&amp;#10;&amp;#10;elif probeResp.corr == 1:&amp;#10;    feedbackMessage = &quot;Correct&quot;&amp;#10;    feedbackColor = &quot;green&quot;&amp;#10;&amp;#10;else:&amp;#10;    feedbackMessage = (&amp;#10;        &quot;Incorrect\n\nCorrect answer: &quot;&amp;#10;        + currentCorrectKey.upper()&amp;#10;        + &quot; (&quot;&amp;#10;        + statusLabel&amp;#10;        + &quot;)&quot;&amp;#10;    )&amp;#10;    feedbackColor = &quot;red&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="feedbackCode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="feedbackTextStim" plugin="None">
+        <Param val="$feedbackColor" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="feedbackTextStim" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$feedbackMessage" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Confidence">
+      <RoutineSettingsComponent name="Confidence" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Confidence" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="confidenceProbeWord" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.10" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="confidenceProbeWord" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$currentProbeWord" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="confidenceQuestion" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="confidenceQuestion" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.22)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="How confident are you in your previous response?&amp;#10;&amp;#10;&amp;#10;1 = LOW        2 = MEDIUM        3 = HIGH" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4" plugin="None">
+        <Param val="'1','2','3'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_4" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instructoins"/>
+    <Routine name="PracticeIntro"/>
+    <LoopInitiator loopType="TrialHandler" name="practiceTrials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_P01'), ('is_practice', np.int64(1)), ('block', np.int64(0)), ('trial_in_block', np.int64(1)), ('global_trial', np.int64(0)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'checks'), ('study_2', 'effort'), ('study_3', 'bounty'), ('study_4', 'sheep'), ('study_5', 'belly'), ('study_6', 'color'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'backs'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'parade'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'effort'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'range'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'bounty'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'sheep'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_P02'), ('is_practice', np.int64(1)), ('block', np.int64(0)), ('trial_in_block', np.int64(2)), ('global_trial', np.int64(0)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'status'), ('study_2', 'sorts'), ('study_3', 'grass'), ('study_4', 'drinks'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'drinks'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'buddy'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'basis'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'sorts'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'status'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'power'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_P03'), ('is_practice', np.int64(1)), ('block', np.int64(0)), ('trial_in_block', np.int64(3)), ('global_trial', np.int64(0)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'magic'), ('study_2', 'blast'), ('study_3', 'opera'), ('study_4', 'alpha'), ('study_5', 'fellow'), ('study_6', 'chapel'), ('study_7', 'drums'), ('study_8', 'value'), ('study_9', 'guests'), ('study_10', 'report'), ('probe_1', 'vodka'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'opera'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'truck'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'drums'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'blast'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'brand'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_P04'), ('is_practice', np.int64(1)), ('block', np.int64(0)), ('trial_in_block', np.int64(4)), ('global_trial', np.int64(0)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'mayor'), ('study_2', 'makeup'), ('study_3', 'print'), ('study_4', 'hollow'), ('study_5', 'trick'), ('study_6', 'drink'), ('study_7', 'potion'), ('study_8', 'kidney'), ('study_9', None), ('study_10', None), ('probe_1', 'makeup'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'honor'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'trick'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'plants'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'prize'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'print'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="C:/Users/Bangaru/OneDrive - Indian Institute of Science/Documents/Sem-3/Congnitive Neuro Scoence/Assignment-1/psychopy_schedules/p002/p002_practice.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="practiceTrials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="FixationText"/>
+    <Routine name="TrialSetup"/>
+    <LoopInitiator loopType="TrialHandler" name="practiceStudyLoop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="set_size" valType="code"/>
+      <Param name="name" updates="None" val="practiceStudyLoop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="studyWord"/>
+    <LoopTerminator name="practiceStudyLoop"/>
+    <Routine name="retention"/>
+    <LoopInitiator loopType="TrialHandler" name="practiceProbeLoop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="code"/>
+      <Param name="name" updates="None" val="practiceProbeLoop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="probe"/>
+    <Routine name="Confidence"/>
+    <Routine name="PracticeFeedback"/>
+    <Routine name="probeBlank"/>
+    <LoopTerminator name="practiceProbeLoop"/>
+    <Routine name="iti"/>
+    <LoopTerminator name="practiceTrials"/>
+    <Routine name="MainIntro"/>
+    <LoopInitiator loopType="TrialHandler" name="mainTrials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T01'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(1)), ('global_trial', np.int64(1)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'frame'), ('study_2', 'flesh'), ('study_3', 'supply'), ('study_4', 'niece'), ('study_5', 'study'), ('study_6', 'saddle'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'prince'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'flies'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'study'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'flesh'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'saddle'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'scenes'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T02'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(2)), ('global_trial', np.int64(2)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'throne'), ('study_2', 'warden'), ('study_3', 'backup'), ('study_4', 'party'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'party'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'warden'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'shrink'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'virus'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'throne'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'backup'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T03'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(3)), ('global_trial', np.int64(3)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'souls'), ('study_2', 'brain'), ('study_3', 'guide'), ('study_4', 'forms'), ('study_5', 'timing'), ('study_6', 'deals'), ('study_7', 'cousin'), ('study_8', 'collar'), ('study_9', 'habit'), ('study_10', 'ground'), ('probe_1', 'timing'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'deals'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'silver'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'cabin'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'guide'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'faith'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T04'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(4)), ('global_trial', np.int64(4)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'ritual'), ('study_2', 'hockey'), ('study_3', 'order'), ('study_4', 'sakes'), ('study_5', 'porch'), ('study_6', 'speed'), ('study_7', 'design'), ('study_8', 'woods'), ('study_9', None), ('study_10', None), ('probe_1', 'wound'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'drain'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'porch'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'design'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'faggot'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'order'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T05'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(5)), ('global_trial', np.int64(5)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'horse'), ('study_2', 'scotch'), ('study_3', 'debate'), ('study_4', 'tissue'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'cable'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'ideas'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'budget'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'horse'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'scotch'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'lounge'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T06'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(6)), ('global_trial', np.int64(6)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'twist'), ('study_2', 'doors'), ('study_3', 'horror'), ('study_4', 'dining'), ('study_5', 'finals'), ('study_6', 'booth'), ('study_7', 'danger'), ('study_8', 'voices'), ('study_9', None), ('study_10', None), ('probe_1', 'voices'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'words'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'dining'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'booth'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'taste'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'doors'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T07'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(7)), ('global_trial', np.int64(7)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'island'), ('study_2', 'turkey'), ('study_3', 'sheet'), ('study_4', 'outfit'), ('study_5', 'pants'), ('study_6', 'plague'), ('study_7', 'risks'), ('study_8', 'birth'), ('study_9', 'plane'), ('study_10', 'anchor'), ('probe_1', 'stars'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'plane'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'blade'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'sheet'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'island'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'birth'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T08'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(8)), ('global_trial', np.int64(8)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'virgin'), ('study_2', 'hotel'), ('study_3', 'auntie'), ('study_4', 'bacon'), ('study_5', 'others'), ('study_6', 'diary'), ('study_7', 'arrest'), ('study_8', 'crack'), ('study_9', None), ('study_10', None), ('probe_1', 'crack'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'expert'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'profit'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'hotel'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'diary'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'virgin'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T09'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(9)), ('global_trial', np.int64(9)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'mercy'), ('study_2', 'detail'), ('study_3', 'prices'), ('study_4', 'places'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'madame'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'stunt'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'rights'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'breath'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'mercy'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'places'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T10'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(10)), ('global_trial', np.int64(10)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'cheese'), ('study_2', 'steps'), ('study_3', 'wrist'), ('study_4', 'belief'), ('study_5', 'jewels'), ('study_6', 'shift'), ('study_7', 'groups'), ('study_8', 'twins'), ('study_9', 'score'), ('study_10', 'yards'), ('probe_1', 'twins'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'belief'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'yards'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'peace'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'issue'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'style'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T11'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(11)), ('global_trial', np.int64(11)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'setup'), ('study_2', 'locker'), ('study_3', 'wounds'), ('study_4', 'sword'), ('study_5', 'length'), ('study_6', 'misery'), ('study_7', 'bureau'), ('study_8', 'trace'), ('study_9', None), ('study_10', None), ('probe_1', 'folks'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'ducks'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'blocks'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'setup'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'misery'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'bully'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T12'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(12)), ('global_trial', np.int64(12)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'siren'), ('study_2', 'tests'), ('study_3', 'amount'), ('study_4', 'trucks'), ('study_5', 'bears'), ('study_6', 'meals'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'codes'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'amount'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'meals'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'losers'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'floors'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'liver'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T13'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(13)), ('global_trial', np.int64(13)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'league'), ('study_2', 'storm'), ('study_3', 'reason'), ('study_4', 'ankle'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'league'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'reason'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'homes'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'fault'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'storm'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'sight'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T14'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(14)), ('global_trial', np.int64(14)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'squad'), ('study_2', 'heels'), ('study_3', 'victim'), ('study_4', 'sherry'), ('study_5', 'tongue'), ('study_6', 'safety'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'bottle'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'sherry'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'growth'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'heels'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'squad'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'tongue'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B1_T15'), ('is_practice', np.int64(0)), ('block', np.int64(1)), ('trial_in_block', np.int64(15)), ('global_trial', np.int64(15)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'theft'), ('study_2', 'crush'), ('study_3', 'stock'), ('study_4', 'boxing'), ('study_5', 'radar'), ('study_6', 'seats'), ('study_7', 'karate'), ('study_8', 'sports'), ('study_9', 'hills'), ('study_10', 'birds'), ('probe_1', 'center'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'crush'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'nigger'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'lives'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'radar'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'winter'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T01'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(1)), ('global_trial', np.int64(16)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'votes'), ('study_2', 'shame'), ('study_3', 'waves'), ('study_4', 'minds'), ('study_5', 'period'), ('study_6', 'fries'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'period'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'dream'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'shame'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'chance'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'nephew'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'fries'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T02'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(2)), ('global_trial', np.int64(17)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'fools'), ('study_2', 'gossip'), ('study_3', 'effect'), ('study_4', 'rocket'), ('study_5', 'trains'), ('study_6', 'singer'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'singer'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'abuse'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'trains'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'names'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'fools'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'effect'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T03'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(3)), ('global_trial', np.int64(18)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'future'), ('study_2', 'fence'), ('study_3', 'dragon'), ('study_4', 'steam'), ('study_5', 'chess'), ('study_6', 'relief'), ('study_7', 'desire'), ('study_8', 'moment'), ('study_9', 'needle'), ('study_10', 'boots'), ('probe_1', 'thumb'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'boots'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'movie'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'drill'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'desire'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'steam'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T04'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(4)), ('global_trial', np.int64(19)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'trees'), ('study_2', 'actor'), ('study_3', 'fella'), ('study_4', 'statue'), ('study_5', 'racket'), ('study_6', 'alarm'), ('study_7', 'fields'), ('study_8', 'pride'), ('study_9', 'spots'), ('study_10', 'master'), ('probe_1', 'pride'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'razor'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'mommy'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'banana'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'racket'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'ladies'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T05'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(5)), ('global_trial', np.int64(20)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'circus'), ('study_2', 'papers'), ('study_3', 'ashes'), ('study_4', 'powers'), ('study_5', 'facts'), ('study_6', 'pirate'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'shrimp'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'pirate'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'bills'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'ashes'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'inches'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'chicks'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T06'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(6)), ('global_trial', np.int64(21)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'jelly'), ('study_2', 'pencil'), ('study_3', 'daddy'), ('study_4', 'spider'), ('study_5', 'chili'), ('study_6', 'sauce'), ('study_7', 'sales'), ('study_8', 'favors'), ('study_9', None), ('study_10', None), ('probe_1', 'types'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'jelly'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'favors'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'chaos'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'suite'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'sales'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T07'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(7)), ('global_trial', np.int64(22)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'vessel'), ('study_2', 'wheel'), ('study_3', 'piano'), ('study_4', 'earth'), ('study_5', 'dancer'), ('study_6', 'salad'), ('study_7', 'chairs'), ('study_8', 'level'), ('study_9', 'chain'), ('study_10', 'polish'), ('probe_1', 'tapes'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'salad'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'vessel'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'chain'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'crown'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'piano'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T08'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(8)), ('global_trial', np.int64(23)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'muscle'), ('study_2', 'energy'), ('study_3', 'deaths'), ('study_4', 'author'), ('study_5', 'waters'), ('study_6', 'aliens'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'deaths'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'lesson'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'energy'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'wishes'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'muscle'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'waters'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T09'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(9)), ('global_trial', np.int64(24)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'guitar'), ('study_2', 'brains'), ('study_3', 'queen'), ('study_4', 'bombs'), ('study_5', 'brakes'), ('study_6', 'times'), ('study_7', 'wagon'), ('study_8', 'apple'), ('study_9', None), ('study_10', None), ('probe_1', 'guitar'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'bombs'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'apple'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'parole'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'brakes'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'spoon'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T10'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(10)), ('global_trial', np.int64(25)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'skill'), ('study_2', 'lands'), ('study_3', 'honour'), ('study_4', 'moron'), ('study_5', 'snake'), ('study_6', 'closet'), ('study_7', 'kiddo'), ('study_8', 'harbor'), ('study_9', None), ('study_10', None), ('probe_1', 'honour'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'snake'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'class'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'tools'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'skill'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'steak'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T11'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(11)), ('global_trial', np.int64(26)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'accent'), ('study_2', 'flame'), ('study_3', 'record'), ('study_4', 'system'), ('study_5', 'palace'), ('study_6', 'rally'), ('study_7', 'asses'), ('study_8', 'scene'), ('study_9', None), ('study_10', None), ('probe_1', 'asses'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'chill'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'badge'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'record'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'hopes'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'music'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T12'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(12)), ('global_trial', np.int64(27)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'plate'), ('study_2', 'balls'), ('study_3', 'files'), ('study_4', 'knife'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'plate'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'offers'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'balls'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'anger'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'cowboy'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'person'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T13'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(13)), ('global_trial', np.int64(28)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'calls'), ('study_2', 'holes'), ('study_3', 'sides'), ('study_4', 'pepper'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'nurses'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'calls'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'yacht'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'holes'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'tellin'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'pepper'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T14'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(14)), ('global_trial', np.int64(29)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'jungle'), ('study_2', 'rehab'), ('study_3', 'street'), ('study_4', 'picnic'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'shaft'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'feast'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'jungle'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'rehab'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'street'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'picnic'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B2_T15'), ('is_practice', np.int64(0)), ('block', np.int64(2)), ('trial_in_block', np.int64(15)), ('global_trial', np.int64(30)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'helio'), ('study_2', 'hatch'), ('study_3', 'issues'), ('study_4', 'tramp'), ('study_5', 'error'), ('study_6', 'mouth'), ('study_7', 'pills'), ('study_8', 'rooms'), ('study_9', 'summer'), ('study_10', 'agent'), ('probe_1', 'sucker'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'blues'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'humor'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'agent'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'cotton'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'error'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T01'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(1)), ('global_trial', np.int64(31)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'nation'), ('study_2', 'bucks'), ('study_3', 'grease'), ('study_4', 'memory'), ('study_5', 'locks'), ('study_6', 'baron'), ('study_7', 'match'), ('study_8', 'stress'), ('study_9', 'pardon'), ('study_10', 'grade'), ('probe_1', 'force'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'memory'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'pardon'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'stress'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'salmon'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'grade'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T02'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(2)), ('global_trial', np.int64(32)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'dress'), ('study_2', 'hobby'), ('study_3', 'grams'), ('study_4', 'threat'), ('study_5', 'lines'), ('study_6', 'drift'), ('study_7', 'beings'), ('study_8', 'momma'), ('study_9', None), ('study_10', None), ('probe_1', 'jeans'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'lines'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'hobby'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'leader'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'beings'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'demon'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T03'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(3)), ('global_trial', np.int64(33)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'arrow'), ('study_2', 'crash'), ('study_3', 'poker'), ('study_4', 'method'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'arrow'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'peach'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'fraud'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'crash'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'ridge'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'chief'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T04'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(4)), ('global_trial', np.int64(34)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'route'), ('study_2', 'device'), ('study_3', 'thief'), ('study_4', 'injury'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'thief'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'stuff'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'route'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'device'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'coffin'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'outta'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T05'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(5)), ('global_trial', np.int64(35)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'theory'), ('study_2', 'resort'), ('study_3', 'shares'), ('study_4', 'court'), ('study_5', 'window'), ('study_6', 'trauma'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'theory'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'women'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'shares'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'toilet'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'trauma'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'degree'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T06'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(6)), ('global_trial', np.int64(36)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'trips'), ('study_2', 'bucket'), ('study_3', 'sister'), ('study_4', 'comedy'), ('study_5', 'slave'), ('study_6', 'lions'), ('study_7', 'colors'), ('study_8', 'pocket'), ('study_9', None), ('study_10', None), ('probe_1', 'puzzle'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'store'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'corps'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'colors'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'lions'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'breed'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T07'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(7)), ('global_trial', np.int64(37)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'clubs'), ('study_2', 'cards'), ('study_3', 'wealth'), ('study_4', 'video'), ('study_5', 'pitch'), ('study_6', 'enemy'), ('study_7', 'result'), ('study_8', 'bells'), ('study_9', None), ('study_10', None), ('probe_1', 'shock'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'wealth'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'video'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'winds'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'pitch'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'clubs'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T08'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(8)), ('global_trial', np.int64(38)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'puppy'), ('study_2', 'buster'), ('study_3', 'bread'), ('study_4', 'bullet'), ('study_5', 'heart'), ('study_6', 'string'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'butler'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'bullet'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'buster'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'bread'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'ransom'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'pillow'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T09'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(9)), ('global_trial', np.int64(39)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'pounds'), ('study_2', 'agency'), ('study_3', 'shelf'), ('study_4', 'psych'), ('study_5', 'glove'), ('study_6', 'copper'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'drawer'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'humans'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'hunch'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'butter'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'shelf'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'psych'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T10'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(10)), ('global_trial', np.int64(40)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'strip'), ('study_2', 'angle'), ('study_3', 'pilot'), ('study_4', 'lawyer'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'angle'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'patch'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'lawyer'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'strip'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'charts'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'pilot'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T11'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(11)), ('global_trial', np.int64(41)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'entry'), ('study_2', 'boats'), ('study_3', 'editor'), ('study_4', 'kisses'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'entry'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'player'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'kisses'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'editor'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'battle'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'boats'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T12'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(12)), ('global_trial', np.int64(42)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'loser'), ('study_2', 'recipe'), ('study_3', 'artist'), ('study_4', 'north'), ('study_5', 'casino'), ('study_6', 'river'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'loser'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'north'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'beauty'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'artist'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'candle'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'river'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T13'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(13)), ('global_trial', np.int64(43)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'phone'), ('study_2', 'judges'), ('study_3', 'staff'), ('study_4', 'event'), ('study_5', 'kings'), ('study_6', 'bones'), ('study_7', 'planes'), ('study_8', 'health'), ('study_9', 'colour'), ('study_10', 'ghosts'), ('probe_1', 'phone'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'staff'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'script'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'bodies'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'garage'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'bones'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T14'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(14)), ('global_trial', np.int64(44)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'winner'), ('study_2', 'organ'), ('study_3', 'oxygen'), ('study_4', 'owner'), ('study_5', 'granny'), ('study_6', 'temple'), ('study_7', 'grunts'), ('study_8', 'fairy'), ('study_9', None), ('study_10', None), ('probe_1', 'fairy'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'garden'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'sheets'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'organ'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'centre'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'cargo'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B3_T15'), ('is_practice', np.int64(0)), ('block', np.int64(3)), ('trial_in_block', np.int64(15)), ('global_trial', np.int64(45)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'shirt'), ('study_2', 'ghost'), ('study_3', 'pipes'), ('study_4', 'elder'), ('study_5', 'cattle'), ('study_6', 'bishop'), ('study_7', 'shots'), ('study_8', 'rhythm'), ('study_9', 'member'), ('study_10', 'bride'), ('probe_1', 'orders'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'jacket'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'ghost'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'cattle'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'canyon'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'months'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T01'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(1)), ('global_trial', np.int64(46)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'market'), ('study_2', 'ending'), ('study_3', 'psycho'), ('study_4', 'notion'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'market'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'cigars'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'psycho'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'ending'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'track'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'signs'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T02'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(2)), ('global_trial', np.int64(47)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'dishes'), ('study_2', 'mount'), ('study_3', 'office'), ('study_4', 'stake'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'affair'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'mount'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'canal'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'office'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'corpse'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'rumors'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T03'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(3)), ('global_trial', np.int64(48)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'penny'), ('study_2', 'shovel'), ('study_3', 'source'), ('study_4', 'creeps'), ('study_5', 'cream'), ('study_6', 'knees'), ('study_7', 'wings'), ('study_8', 'shape'), ('study_9', 'photos'), ('study_10', 'flower'), ('probe_1', 'shovel'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'knees'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'second'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'creeps'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'sugar'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'sailor'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T04'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(4)), ('global_trial', np.int64(49)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'waiter'), ('study_2', 'roses'), ('study_3', 'manner'), ('study_4', 'maniac'), ('study_5', 'creek'), ('study_6', 'soccer'), ('study_7', 'powder'), ('study_8', 'houses'), ('study_9', None), ('study_10', None), ('probe_1', 'powder'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'waiter'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'creek'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'easter'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'manner'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'scale'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T05'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(5)), ('global_trial', np.int64(50)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'brass'), ('study_2', 'button'), ('study_3', 'steel'), ('study_4', 'wisdom'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'agenda'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'wisdom'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'brass'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'steel'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'police'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'rumor'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T06'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(6)), ('global_trial', np.int64(51)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'policy'), ('study_2', 'crisis'), ('study_3', 'fears'), ('study_4', 'talent'), ('study_5', 'factor'), ('study_6', 'laser'), ('study_7', 'novel'), ('study_8', 'bubble'), ('study_9', 'screen'), ('study_10', 'cooler'), ('probe_1', 'aisle'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'fears'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'talent'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'screen'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'socks'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'laser'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T07'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(7)), ('global_trial', np.int64(52)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'floor'), ('study_2', 'slaves'), ('study_3', 'peanut'), ('study_4', 'tears'), ('study_5', 'branch'), ('study_6', 'snack'), ('study_7', 'rabbi'), ('study_8', 'faces'), ('study_9', None), ('study_10', None), ('probe_1', 'faces'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'chair'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'weight'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'peanut'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'rabbi'), ('probe_5_status', 'old'), ('probe_5_correct_key', 'f'), ('probe_6', 'regard'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T08'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(8)), ('global_trial', np.int64(53)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'freak'), ('study_2', 'skull'), ('study_3', 'sport'), ('study_4', 'skies'), ('study_5', 'group'), ('study_6', 'idiot'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'skull'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'freak'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'sport'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'field'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'label'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'skies'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T09'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(9)), ('global_trial', np.int64(54)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(3)), ('new_probe_count', np.int64(3)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'skills'), ('study_2', 'pizza'), ('study_3', 'vision'), ('study_4', 'trial'), ('study_5', 'stove'), ('study_6', 'finger'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'alley'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'trial'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'stove'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'shirts'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'movies'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'finger'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T10'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(10)), ('global_trial', np.int64(55)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'stream'), ('study_2', 'union'), ('study_3', 'boxes'), ('study_4', 'image'), ('study_5', 'clerk'), ('study_6', 'weapon'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'scores'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'dudes'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'union'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'horses'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'table'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'image'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T11'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(11)), ('global_trial', np.int64(56)), ('set_size', np.int64(6)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'items'), ('study_2', 'fridge'), ('study_3', 'hours'), ('study_4', 'subway'), ('study_5', 'gates'), ('study_6', 'cigar'), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'items'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'gates'), ('probe_2_status', 'old'), ('probe_2_correct_key', 'f'), ('probe_3', 'crime'), ('probe_3_status', 'new'), ('probe_3_correct_key', 'j'), ('probe_4', 'trail'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'potato'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'nanny'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T12'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(12)), ('global_trial', np.int64(57)), ('set_size', np.int64(4)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'patrol'), ('study_2', 'bench'), ('study_3', 'cloud'), ('study_4', 'teeth'), ('study_5', None), ('study_6', None), ('study_7', None), ('study_8', None), ('study_9', None), ('study_10', None), ('probe_1', 'patrol'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'studio'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'bench'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'teeth'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'signal'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'cloud'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T13'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(13)), ('global_trial', np.int64(58)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'plates'), ('study_2', 'sponge'), ('study_3', 'bridge'), ('study_4', 'animal'), ('study_5', 'camera'), ('study_6', 'pledge'), ('study_7', 'poetry'), ('study_8', 'adults'), ('study_9', 'ticket'), ('study_10', 'priest'), ('probe_1', 'ticket'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'towels'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'pledge'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'throat'), ('probe_4_status', 'new'), ('probe_4_correct_key', 'j'), ('probe_5', 'alibi'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'engine'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T14'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(14)), ('global_trial', np.int64(59)), ('set_size', np.int64(10)), ('old_probe_count', np.int64(4)), ('new_probe_count', np.int64(2)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'story'), ('study_2', 'breeze'), ('study_3', 'lungs'), ('study_4', 'melody'), ('study_5', 'glory'), ('study_6', 'search'), ('study_7', 'beers'), ('study_8', 'phones'), ('study_9', 'ranch'), ('study_10', 'actors'), ('probe_1', 'ranch'), ('probe_1_status', 'old'), ('probe_1_correct_key', 'f'), ('probe_2', 'season'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'story'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'beers'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'plant'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'search'), ('probe_6_status', 'old'), ('probe_6_correct_key', 'f')]), OrderedDict([('subject_id', 'p002'), ('schedule_seed', np.int64(1939890892)), ('trial_id', 'p002_B4_T15'), ('is_practice', np.int64(0)), ('block', np.int64(4)), ('trial_in_block', np.int64(15)), ('global_trial', np.int64(60)), ('set_size', np.int64(8)), ('old_probe_count', np.int64(2)), ('new_probe_count', np.int64(4)), ('old_key', 'f'), ('new_key', 'j'), ('study_1', 'dough'), ('study_2', 'depth'), ('study_3', 'sweat'), ('study_4', 'cents'), ('study_5', 'volume'), ('study_6', 'grief'), ('study_7', 'south'), ('study_8', 'bunny'), ('study_9', None), ('study_10', None), ('probe_1', 'blood'), ('probe_1_status', 'new'), ('probe_1_correct_key', 'j'), ('probe_2', 'tennis'), ('probe_2_status', 'new'), ('probe_2_correct_key', 'j'), ('probe_3', 'sweat'), ('probe_3_status', 'old'), ('probe_3_correct_key', 'f'), ('probe_4', 'volume'), ('probe_4_status', 'old'), ('probe_4_correct_key', 'f'), ('probe_5', 'booze'), ('probe_5_status', 'new'), ('probe_5_correct_key', 'j'), ('probe_6', 'heads'), ('probe_6_status', 'new'), ('probe_6_correct_key', 'j')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="C:/Users/Bangaru/OneDrive - Indian Institute of Science/Documents/Sem-3/Congnitive Neuro Scoence/Assignment-1/psychopy_schedules/p002/p002_schedule_all.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="mainTrials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="BlockStart"/>
+    <Routine name="FixationText"/>
+    <Routine name="TrialSetup"/>
+    <LoopInitiator loopType="TrialHandler" name="StudyLoop1">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="set_size" valType="code"/>
+      <Param name="name" updates="None" val="StudyLoop1" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="studyWord"/>
+    <LoopTerminator name="StudyLoop1"/>
+    <Routine name="retention"/>
+    <LoopInitiator loopType="TrialHandler" name="probeLoop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="code"/>
+      <Param name="name" updates="None" val="probeLoop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="probe"/>
+    <Routine name="Confidence"/>
+    <Routine name="probeBlank"/>
+    <LoopTerminator name="probeLoop"/>
+    <Routine name="iti"/>
+    <Routine name="BlockBreak"/>
+    <LoopTerminator name="mainTrials"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>
